@@ -1,7 +1,7 @@
 [
     {
         "key": "ctrl+x ctrl+f",
-        "command": "workbench.action.files.openFile"
+        "command": "workbench.action.quickOpen"
     },
     {
         "key": "ctrl+x ctrl+s",
@@ -34,11 +34,23 @@
     {
         "key": "ctrl+p",
         "command": "workbench.action.quickOpenNavigatePrevious",
-        "when": "inQuickOpen" 
+        "when": "inQuickOpen"
     },
-    { 
+    {
         "key": "ctrl+n",
         "command": "workbench.action.quickOpenNavigateNext",
         "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "shift+left",
+        "command": "workbench.action.focusLeftEditor"
+    },
+    {
+        "key": "shift+right",
+        "command": "workbench.action.focusRightEditor"
     }
 ]
