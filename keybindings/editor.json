@@ -52,5 +52,15 @@
     {
         "key": "shift+right",
         "command": "workbench.action.focusRightEditor"
+    },
+    {
+        "key": "alt+/",
+        "command": "editor.action.addCommentLine",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+;",
+        "command": "editor.action.addCommentLine",
+        "when": "editorTextFocus"
     }
 ]
