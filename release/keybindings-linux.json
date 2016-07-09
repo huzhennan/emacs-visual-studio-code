@@ -21,11 +21,11 @@
     },
     {
         "key": "shift+right",
-        "command": "workbench.action.focusRightEditor"
+        "command": "workbench.action.focusNextGroup"
     },
     {
         "key": "shift+left",
-        "command": "workbench.action.focusLeftEditor"
+        "command": "workbench.action.focusPreviousGroup"
     },
     {
         "key": "ctrl+1",
